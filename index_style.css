@@ -1,3 +1,17 @@
 body{
     font-family: 'Poppins',sans-serif;
+    
+    /*background-color: red;*/
+}
+header{
+    display:flex;
+    /*flex-wrap:wrap;*/
+    background-color: coral;
+    height:50vh;
+    width:90%;
+    align-items:center;
+    margin:auto;
+}
+header img{
+    width:100px;
 }
