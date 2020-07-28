@@ -6,7 +6,7 @@ body{
 header{
     display:flex;
     /*flex-wrap:wrap;*/
-    background-color: coral;
+    /*background-color: coral;*/
     height:50vh;
     width:90%;
     align-items:center;
@@ -42,4 +42,63 @@ nav{
     display:flex;
     flex:1;
     justify-content:flex-end;
+}
+.presentation{
+    display:flex;
+    width:90%;
+    background-color: darkgoldenrod;
+    min-height:100vh;
+    align-items:center;
+    margin:auto;
+}
+.introduction{
+    flex:1;
+}
+.intro-text h1{
+    font-size:44px;
+    font-weight:500;
+    background:linear-gradient(to right, #494964,#6f6f89);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+}
+.intro-text p{
+    margin-top:5px;
+    font-size:22px;
+    color:grey;
+}
+.cta{
+    padding:50px 0px 0px 0px;
+}
+.cta-select{
+    border:2px solid blue;
+    background:transparent;
+    color: blue;
+    height:150px;width:150px;
+    cursor:pointer;
+    font-size:16px;
+
+}
+.cta-add{
+    background-color: blue;
+    width:150px;
+    height:150px;
+    border:none;
+    color:white;
+    font-size:16px;
+    cursor:pointer;
+    margin:30px 0px 0px 30px;
+}
+.cover{
+    flex:1;
+    display:flex;
+    justify-content:center;
+    background-color: chartreuse;
+    height:60vh;
+}
+.cover img{
+    height:100%;
+    /*filter:drop-shadow(0px 5px 3px yellow);*/
+    /*filter:blur(5px);*/
+    filter:sepia(200%);
+    animation:drop 3s ease;
 }
