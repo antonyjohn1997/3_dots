@@ -102,3 +102,21 @@ nav{
     filter:sepia(200%);
     animation:drop 3s ease;
 }
+
+.laptop-select{
+    width:15%;
+    display:flex;
+    justify-content: space-around;
+    position:absolute;
+    right:20%;
+}
+@keyframes drop{
+    0%{
+        opacity:1;
+        transform:translateY(-80px);
+    }
+    100%{
+        opacity:1;
+        transform:translateY(0px);
+    }
+}
